@@ -101,7 +101,7 @@ class _OnboardingViewState extends State<OnboardingView> {
               child: ElevatedButton(
                 onPressed: () {
                   if (_currentPage == _pages.length - 1) {
-                    // الانتقال مباشرة لصفحة تسجيل الدخول بعد الانتها
+                    
                     Navigator.pushReplacementNamed(context, '/login');
                   } else {
                     _pageController.nextPage(

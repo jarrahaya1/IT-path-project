@@ -3,6 +3,7 @@ import 'login_page.dart';
 import 'signup_page.dart';
 import 'paths.dart';
 import 'onboarding_view.dart';
+import 'profile_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginPage(),
         '/signup': (context) => SignUpPage(),
         '/home': (context) => const PathListPage(),
+        '/profile': (context) => const ProfilePage(),
       },
     );
   }
